@@ -1,0 +1,5 @@
+{
+  "name": "RNL Hospital Visit Report",
+  "description": "A comprehensive data collection application for RNL Hospital visit reports. It allows for detailed logging of visit details, issues, concerns, observations, and ratings in a structured format.",
+  "requestFramePermissions": []
+}

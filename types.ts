@@ -1,0 +1,41 @@
+
+export interface VisitReportData {
+  email: string;
+  hospitalName: string;
+  zohoCode: string;
+  dateOfVisit: string;
+  visitAgenda: string;
+  stakeholdersMet: string;
+  trainingConducted: boolean | null;
+  trainingTopics: string;
+  attendanceSheet: File | null;
+  trainingPhotos: File[];
+  radarIdsChecked: boolean | null;
+  radarIdsDeactivated: number;
+  radarIdsCreated: number;
+  eCallCodeBlueTraining: boolean | null;
+  keyPointsDiscussed: string;
+  challengesCareCenter: string;
+  challengesHospital: string;
+  resolutionImplemented: string;
+  documentationMode: string;
+  radarSpecificIssues: string;
+  solutionGiven: string;
+  issueAssignedTo: string;
+  expansionOpportunity: boolean | null;
+  expansionReason: string;
+  nabhStatus: string;
+  roundsNotRegularReason: string;
+  supportNeededFromHospital: string;
+  nextSteps: string;
+  nursingStaffResponse: string;
+  ownerResponse: string;
+  solutionEffectivenessRating: number;
+  criticalImmediateNeed: string;
+  relationshipWithStaff: string;
+  hospitalProactiveness: string;
+  implementationTimeFrame: string;
+  retrainingAssessment: File | null;
+  noAssessmentReason: string;
+  rnlOwnNotes: string;
+}
